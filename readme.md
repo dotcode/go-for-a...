@@ -1,0 +1,1 @@
+### Weather Forecast for outdoor activities in the CLI

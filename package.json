@@ -1,6 +1,6 @@
 {
   "name": "go-for-a",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Weahter Forecast for outdoor activities in the CLI",
   "main": "index.js",
   "scripts": {

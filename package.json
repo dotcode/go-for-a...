@@ -1,0 +1,35 @@
+{
+  "name": "go-for-a",
+  "version": "1.0.0",
+  "description": "Weahter Forecast for outdoor activities in the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lluia/go-for-a.git"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "weather",
+    "forecast",
+    "run",
+    "hike",
+    "swim",
+    "outdoor",
+    "outdoors",
+    "terminal"
+  ],
+  "author": {
+    "name": "Lluis Agusti Loewe",
+    "email": "lluiagusti@gmail.com",
+    "url": "https://twitter.com/_lluia"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lluia/go-for-a/issues"
+  },
+  "homepage": "https://github.com/lluia/go-for-a#readme"
+}

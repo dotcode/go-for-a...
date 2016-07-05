@@ -1,1 +1,4 @@
-console.log('Hello Universe');
+function userFactory() {
+  let user = {};
+  return user;
+}

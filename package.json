@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/lluia/go-for-a/issues"
   },
-  "homepage": "https://github.com/lluia/go-for-a#readme"
+  "homepage": "https://github.com/lluia/go-for-a#readme",
+  "dependencies": {
+    "ramda": "0.21.0"
+  }
 }

@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/lluia/go-for-a/issues"
   },
-  "homepage": "https://github.com/lluia/go-for-a#readme"
+  "homepage": "https://github.com/lluia/go-for-a#readme",
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "2.5.3"
+  }
 }

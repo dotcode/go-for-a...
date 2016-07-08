@@ -20,7 +20,7 @@
   - [ ] check if the user has a default **activity** set
     - [ ] ! → prompt user to choose between `swim` / `hike` / `run`
     - [ ] ! → tip him he can set the activity via flag
-  - [ ] query [Open Weather](http://openweathermap.org) API usgin 
+  - [ ] query [Open Weather](http://openweathermap.org) API 
     - [ ] pass key as arg
     - [ ] pass location as arg
     - [ ] `&` **handle-response**

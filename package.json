@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/lluia/go-for-a#readme",
   "dependencies": {
+    "dotenv": "2.0.0",
     "ramda": "0.21.0"
   },
   "devDependencies": {

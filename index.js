@@ -1,1 +1,1 @@
-console.log('Hello Universe');
+require('dotenv').config();

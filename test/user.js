@@ -1,33 +1,22 @@
 'use strict';
 
 const expect = require('expect.js');
-const userFactory = require('../lib/factories/user');
 
 describe('Package User', () => {
-  let user;
-
-  beforeEach(function() {
-    user = userFactory();
-  });
-
-  afterEach(function() {
-    user = undefined;
-  });
+  const user = require('../lib/factories/user');
 
   it('Should exist', () => {
     expect(user).to.be.a('object');
   });
 
-  it('Should have an API key', () => {
-    expect(user).to.have.key('key');
+  it('Should have a default API key', () => {
+    expect(user.getAPIkey()).to.be.a('string');
   });
 
-  // it('Should have a location', () => {
-  //   expect(user).to.have.key('location');
-  // });
-
-  // it('Should have an activity', () => {
-  //   expect(user).to.have.key('activity');
-  // });
+  it('Should be able to set the API key', () => {
+    let key = 'test';
+    user.setAPIkey(key);
+    expect(user.getAPIkey()).to.be(key);
+  });
 });
 

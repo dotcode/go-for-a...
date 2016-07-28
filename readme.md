@@ -14,12 +14,12 @@
     - [ ] query **OW** with defaults
     - [ ] `&` **handle-response**
   - [ ] check if the user has not a default **location** set
-    - [ ] ! → ask him if he wants to be _geolocated_
-    - [ ] ! → ask him to enter it manually
-    - [ ] ! → tip him he can set the location via flag
+    - [ ] ! → ask them if they want to be _geolocated_
+    - [ ] ! → ask them to enter it manually
+    - [ ] ! → tip them they can set the location via flag
   - [ ] check if the user has a default **activity** set
     - [ ] ! → prompt user to choose between `swim` / `hike` / `run`
-    - [ ] ! → tip him he can set the activity via flag
+    - [ ] ! → tip them they can set the activity via flag
   - [ ] query [Open Weather](http://openweathermap.org) API 
     - [ ] pass key as arg
     - [ ] pass location as arg
